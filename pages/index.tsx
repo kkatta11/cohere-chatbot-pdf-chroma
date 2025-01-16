@@ -224,7 +224,7 @@ export default function Home() {
                     placeholder={
                       loading
                         ? 'Waiting for response...'
-                        : 'What are the courses offered at TheSkillPedia.com?'
+                        : 'Ask me a Question about Oracle Integration?'
                     }
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
@@ -261,8 +261,7 @@ export default function Home() {
           </main>
         </div>
         <footer className="m-auto p-4">
-          <a href="https://twitter.com/TheSkillPedia">
-            Powered by LangChainAI. Learn Generative AI TheSkillPedia (Twitter: @TheSkillPedia).
+            Powered by OIC Team
           </a>
         </footer>
       </Layout>
